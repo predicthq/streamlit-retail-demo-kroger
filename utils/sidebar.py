@@ -8,21 +8,39 @@ from utils.code_examples import get_code_example
 def show_sidebar_options():
     locations = [
         {
+            "id": "georgia",
+            "name": "Atlanta",
+            "address": "725 Ponce De Leon Ave NE, Atlanta, Georgia",
+            "lat": 33.77173367135585,
+            "lon": -84.3634853761556,
+            "tz": "America/New_York",
+            "units": "imperial",
+        },
+        {
             "id": "chicago",
             "name": "Chicago",
-            "address": "Chicago, Illinois",
-            "lat": 41.88691800264782,
-            "lon":  -87.62784085443968,
+            "address": "333 E Benton Pl, Chicago, Illinois",
+            "lat": 41.885299,
+            "lon": -87.618492,
             "tz": "America/Chicago",
             "units": "imperial",
         },
         {
-            "id": "new-york",
-            "name": "Soho",
-            "address": "Soho, New York",
-            "lat": 40.724879946382124,
-            "lon": -74.00263414797246,
+            "id": "ohio",
+            "name": "Cincinnati",
+            "address": "100 E Court St, Cincinnati, Ohio",
+            "lat": 39.10682254929463, 
+            "lon": -84.51252622307851,
             "tz": "America/New_York",
+            "units": "imperial",
+        },
+        {
+            "id": "indiana",
+            "name": "Indianapolis",
+            "address": "227 W Michigan St, Indianapolis, Indiana",
+            "lat": 39.77404277235099, 
+            "lon": -86.16253535079542,
+            "tz": "America/Indiana/Indianapolis",
             "units": "imperial",
         },
     ]
@@ -142,5 +160,5 @@ def show_map_sidebar_code_examples():
             st.markdown(get_code_example(example["filename"]))
 
     st.sidebar.caption(
-        "Get the code for this app at [GitHub](https://github.com/predicthq/streamlit-retail-demo)"
+        "Get the code for this app at [GitHub](https://github.com/predicthq/streamlit-retail-demo-kroger)"
     )

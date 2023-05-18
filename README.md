@@ -10,7 +10,7 @@ Learn more about integrating with the PredictHQ APIs at [https://docs.predicthq.
 To run the app locally:
 
 ```
-$ cd streamlit-retail-demo
+$ cd streamlit-retail-demo-kroger
 $ python3 -m venv .venv
 $ 
 $ source .venv/bin/activate
