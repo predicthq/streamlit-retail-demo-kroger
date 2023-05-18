@@ -1,4 +1,4 @@
-# PredictHQ Retail Demo App
+# PredictHQ Retail Demo App with sample Kroger stores
 
 This is a [Streamlit](https://streamlit.io) app designed to show how easy it is to get up and running quickly with the PredictHQ APIs. Please feel free to take a copy of this code and modify it for your own use, or take the bits you need to make your integration with PredictHQ easier and faster.
 
